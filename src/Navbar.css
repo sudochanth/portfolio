@@ -1,0 +1,50 @@
+/* .main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  background-color: #4a4a4a;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.push {
+  margin-left: auto;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+}
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  background-color: #4a4a4a;
+}
+
+li {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

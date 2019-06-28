@@ -1,0 +1,23 @@
+/* .portfolio {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.project {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  border: 2px solid black;
+} */
+
+.studio {
+  width: 50%;
+  height: auto;
+}
+
+a {
+  color: black;
+}
