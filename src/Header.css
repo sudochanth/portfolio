@@ -4,7 +4,25 @@
 
 
 .container {
+  display: flex;
   height: 100vh;
-  background-color: antiquewhite;
-  color: blue;
+  align-items: center;
+  justify-content: center;
+  background: url("./imgs/blacknwhite2.jpg");
+  background-position: center;
+  background-size: cover;
+  /* z-index: -1; */
+}
+
+#intro {
+  display: inline-block;
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
+}
+
+#name {
+  font-size: 4rem;
+  color: #2D4E68;
+  margin: 3% 0;
 }

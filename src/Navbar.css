@@ -27,16 +27,18 @@ body {
   display: flex;
   list-style: none;
   margin: 0;
-  background-color: #4a4a4a;
+  background-color: #969696;
+  /* background-color: #4a4a4a; */
 }
 
-li {
+.main-nav > li {
   padding: 20px;
 }
 
-a {
+.main-nav a {
   text-decoration: none;
-  color: white;
+  color: white !important;
+  text-decoration: none;
 }
 
 .push {
@@ -47,4 +49,42 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.center{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 25px 10px 0px 0px #fff; 
+}
+
+.crescent-container {
+  /* padding: 0 2%; */
+  position: relative;
+  transition: all .2s ease-in-out;
+  margin: 0 2% 0 2%;
+}
+
+.crescent-container:hover {
+  transform: scale(1.1);
+
+}
+
+.crescent {
+  position: absolute;
+  transform: rotate(120deg);
+  bottom: 5px;
+}
+
+.s {
+  left: 43px;
+  position: absolute;
+  color: white;
 }

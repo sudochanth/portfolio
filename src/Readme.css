@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.readme {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  /* padding: 5%; */
+  text-align: center;
+  height: auto;
+  margin: 3em;
+}
+
+.title {
+  padding: 0 0 3% 0;
+}
+
+.aboutme {
+  display: inline block;
+}
+
+li {
+  list-style: none;
+}
+
+.profile {
+  display: grid;
+  grid-gap: 5%;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* 
+.icons {
+  margin: 2em 0;
+
+} */
+
+
+@media (max-width: 780px) {
+  .profile {
+    grid-template-columns: 1fr;
+  }
+}

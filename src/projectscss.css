@@ -1,0 +1,83 @@
+/* .portfolio {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.project {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  border: 2px solid black;
+} */
+
+.studio {
+  width: 85%;
+  height: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.portfolio-title {
+  margin-bottom: 1rem;
+}
+
+.portfolio {
+  display: flexbox;
+  background-color: #c7c7c731;
+  padding: 3%;
+}
+
+.project {
+  /* display: flex; */
+  /* justify-content: space-around; */
+  border-radius: 15px;
+  flex-direction: row;
+  margin: 2em;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.portfolio a:hover {
+  color: rgb(84, 145, 192);
+}
+
+.first, .second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+<section className="portfolio-title">
+        <h2>Portfolio</h2>
+      </section>
+
+      <section className="projects-list">
+        <div className="project first">
+          <section>
+            <h3>Studio Ghibli API Project</h3>
+            <img className="studio" src={studio}></img>
+          </section>
+          <section className="project-right">
+            <a href="https://stupefied-shirley-ecca23.netlify.com/" target="_blank">See it in action</a>
+            {/* <br/>
+            <br/> */}
+            |
+            <a href="https://github.com/sudochanth/studioghibli">Github</a>
+            <p>
+              This project was made to gain an understanding of API's and pulled from the Studio Ghibli API in order to display all movies made from the studio. 
+            </p>
+            <p>
+              Created using React & CSS
+            </p>
+          </section>
+        </div>
+      </section>
